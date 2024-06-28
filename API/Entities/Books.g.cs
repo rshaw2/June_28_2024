@@ -18,7 +18,6 @@ namespace June282024.Entities
         {
             Price = 100M;
             Quantity = 1;
-            IsAvailable = true;
         }
 
         /// <summary>
