@@ -1,0 +1,9 @@
+- name: Book
+  items:
+    - name: Test 1
+      icon: fab fa-affiliatetheme
+  icon: fas fa-book
+  route: Books
+- name: Author
+  icon: fas fa-pen-nib
+  route: Author
