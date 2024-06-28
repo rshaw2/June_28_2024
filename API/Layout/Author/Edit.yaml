@@ -1,0 +1,10 @@
+- name: General
+  type: section
+  column: 4
+  showTitle: true
+  icon: fab fa-accusoft
+  fields:
+    - dataType: string
+      label: Name
+      column: 2
+      fieldName: Name

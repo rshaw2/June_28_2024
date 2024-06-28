@@ -1,0 +1,61 @@
+grid:
+  cardTitle:
+    fields:
+      - dataType: string
+        label: Title
+        column: 4
+        fieldName: Title
+  cardDetail:
+    fields:
+      - dataType: guid
+        dataSource: Author
+        label: Author id
+        column: 4
+        fieldName: AuthorId
+      - dataType: string
+        label: Publication
+        column: 2
+        fieldName: Publication
+      - dataType: string
+        label: Genre
+        column: 2
+        fieldName: Genre
+      - dataType: numeric
+        label: Price
+        column: 2
+        fieldName: Price
+      - dataType: numeric
+        label: Quantity
+        column: 2
+        fieldName: Quantity
+      - dataType: datetime
+        label: Publish date
+        column: 4
+        fieldName: PublishDate
+filter:
+  fields:
+    - dataType: string
+      label: Title
+      column: 2
+      fieldName: Title
+    - dataType: guid
+      dataSource: Author
+      label: Author id
+      column: 2
+      fieldName: AuthorId
+    - dataType: string
+      label: Publication
+      column: 2
+      fieldName: Publication
+    - dataType: string
+      label: Genre
+      column: 2
+      fieldName: Genre
+    - dataType: numeric
+      label: Price
+      column: 4
+      fieldName: Price
+    - dataType: numeric
+      label: Quantity
+      column: 4
+      fieldName: Quantity

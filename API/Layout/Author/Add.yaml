@@ -1,0 +1,32 @@
+- name: General
+  type: section
+  column: 4
+  showTitle: true
+  icon: fab fa-accusoft
+  fields:
+    - dataType: string
+      label: Name
+      column: 2
+      fieldName: Name
+    - name: History
+      type: section
+      column: 2
+      showTitle: true
+      icon: fab fa-html5
+      fields:
+        - dataType: guid
+          label: Created by
+          column: 2
+          fieldName: CreatedBy
+        - dataType: datetime
+          label: Created on
+          column: 2
+          fieldName: CreatedOn
+        - dataType: guid
+          label: Updated by
+          column: 2
+          fieldName: UpdatedBy
+        - dataType: datetime
+          label: Updated on
+          column: 2
+          fieldName: UpdatedOn

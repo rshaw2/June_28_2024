@@ -1,0 +1,55 @@
+- dataType: string
+  label: Title
+  column: 2
+  fieldName: Title
+- dataType: guid
+  dataSource: Author
+  label: Author id
+  column: 2
+  fieldName: AuthorId
+- dataType: string
+  label: Genre
+  column: 1
+  fieldName: Genre
+- dataType: string
+  label: Publication
+  column: 1
+  fieldName: Publication
+- dataType: datetime
+  label: Publish date
+  column: 1
+  fieldName: PublishDate
+- dataType: boolean
+  label: Is available
+  column: 1
+  fieldName: IsAvailable
+- dataType: numeric
+  label: Price
+  column: 1
+  fieldName: Price
+- dataType: numeric
+  label: Quantity
+  column: 1
+  fieldName: Quantity
+- name: History
+  type: section
+  column: 4
+  showTitle: true
+  icon: fab fa-hire-a-helper
+  fields:
+    - dataType: guid
+      label: Created by
+      column: 2
+      fieldName: CreatedBy
+    - dataType: datetime
+      label: Created on
+      column: 2
+      fieldName: CreatedOn
+    - dataType: guid
+      label: Updated by
+      column: 2
+      fieldName: UpdatedBy
+    - dataType: datetime
+      label: Updated on
+      column: 2
+      fieldName: UpdatedOn
